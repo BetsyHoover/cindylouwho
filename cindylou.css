@@ -52,26 +52,31 @@ table {
 		background-color: #FFCCFF
 		}
 		h1 {
+			font-family: fantasy;
 			font-size: 48px; 
-			color: gray
+			color: white
 		}
 		h5 {
-			font-size: 18px; 
+			font-size: 16px; 
+			font-family: verdana serif;
 			color: black
 		}
 		h3 {
+			font-family: fantasy;
 			font-size: 30px; 
-			color: gray
-		}
-		h4 {
-			font-size: 24px; 
-			color: gray
-		}
-		p {
-			font-size: 14px; 
 			color: black
 		}
+		h4 {
+			font-family: verdana serif;
+			font-size: 24px; 
+			color: black
+		}
+		p {
+			font-size: 14px;
+			font-family: Verdana serif;
+		}
 		h2 {
+			font-family:fantasy;
 			font-size: 22px; 
 			color: white
 		}
@@ -80,17 +85,51 @@ table {
 		}
 
 		.navigation {
-			color: blue;
+			color: white;
 			font-size: 16;
 			font-family: georgia serif;
 			float: right;
+			padding-right: 15px;
+			padding-bottom: 10px
 		}
-		.header {
-			background: white;
-			width: 960px
-			height: 100px;
-		}		
 
+		.headergroup {
+			background: gray;
+			border-bottom: white;
+			height: 140px;
+			text-align: center;
+			padding-top: 15px
+		}		
+		.intro{
+			font-family: verdana serif;
+			font-size: 18px;
+			font-style: bold;
+			margin-left: 240px;
+			margin-right: 240px;
+			width: 960px;
+
+		}
+		.journal {
+			font-family: verdana serif;
+			font-size: 14px;
+			padding-left: 240px;
+			width: 960px;
+		}
+
+		.resume{
+			width: 960px;
+			margin-left: 240px
+		}
+
+		.organization{
+			width: 240px;
+		}
+
+		.description{
+			float: right;
+			font-family: verdana serif;
+			width: 480px;
+		}
 
 		.group {
 			*zoom - 1
